@@ -34,7 +34,7 @@ export default {
   methods: {
     start() {
       this.isActive = true;
-      this.interval = setInterval(this.timeCount, 1);
+      this.interval = setInterval(this.timeCount, 1000);
     },
     pause() {
       this.isActive = false;
